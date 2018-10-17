@@ -24,10 +24,9 @@
     "prettier": "^1.14.3"
   },
   "dependencies": {
+    "@reach/router": "^1.2.1",
     "petfinder-client": "0.0.3",
     "react": "^16.5.2",
-    "react-dom": "^16.5.2",
-    "spotify-web-api-js": "^1.1.1",
-    "spotify-web-api-node": "^4.0.0"
+    "react-dom": "^16.5.2"
   }
 }
