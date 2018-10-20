@@ -12,11 +12,13 @@ class Caroussel extends React.Component {
     }
     return { photos };
   }
+
   handleIndexClick = (event) => {
     this.setState({
       active: +event.target.dataset.index
     })
   }
+
   render() {
     const {
       photos,
